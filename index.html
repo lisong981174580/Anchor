@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anchor</title>
+</head>
+
+
+<style>
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+
+  ul{
+      width: 1200px;
+      margin: 0 auto;
+  }
+
+  ul>li{
+      width: 100%;
+      margin-bottom: 30px;
+  }
+
+    ul>li>div{
+        width: 100%;
+        height: 800px;
+
+    }
+
+
+    ol{
+
+        width: 50px;
+        height: 300px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        left: 0;
+
+    }
+
+    ol>li{
+        width: 100%;
+        height: 30px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    ol>li>a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-decoration: none;
+    }
+</style>
+<body>
+<ul>
+    <li>
+        <a name="one"></a>
+        <h3>第一块</h3>
+        <div style="background: red"></div>
+    </li>
+    <li>
+        <a name="two"></a>
+        <h3>第二块</h3>
+        <div style="background: blue"></div>
+    </li>
+    <li>
+        <a name="three"></a>
+        <h3>第三块</h3>
+        <div style="background: yellow"></div>
+    </li>
+    <li>
+        <a name="four"></a>
+        <h3>第四块</h3>
+        <div style="background: pink"></div>
+    </li>
+
+    <li>
+        <a name="five"></a>
+        <h3>第五块</h3>
+        <div style="background: green"></div>
+    </li>
+
+    <li>
+        <a name="six"></a>
+        <h3>第六块</h3>
+        <div style="background: purple"></div>
+    </li>
+</ul>
+
+<ol>
+
+    <li  style="background: red"><a href="#one">1</a></li>
+    <li  style="background: blue"><a href="#two">2</a></li>
+    <li  style="background: yellow"><a href="#three">3</a></li>
+    <li  style="background: pink"><a href="#four">4</a></li>
+    <li  style="background: green"><a href="#five">5</a></li>
+    <li  style="background: purple"><a href="#six">6</a></li>
+</ol>
+</body>
+</html>
